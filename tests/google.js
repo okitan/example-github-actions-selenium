@@ -6,6 +6,8 @@ describe("Google Test", function() {
 
     browser.waitForVisible('ul[role="listbox"]', 3000);
 
+    console.log(browser.getText("body")); // orz
+
     browser.elements('ul[role="listbox"]').click("div=dena swet");
 
     expect(browser.elements("body").getText()).to.include("DeNA Testing Blog");
