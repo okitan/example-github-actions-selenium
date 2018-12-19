@@ -19,7 +19,7 @@ exports.config = {
         name: "chrome" // capabilitiy name (mainly use for screenshot)
       },
       "goog:chromeOptions": {
-        args: ["--headless"]
+        args: ["--headless", "--lang=ja_JP"]
       }
     }
     // {
